@@ -1,0 +1,25 @@
+<!-- styles.xml -->
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+
+    <style name="DarkTheme" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">@color/dark_primary</item>
+        <item name="colorPrimaryDark">@color/dark_primary_dark</item>
+        <item name="colorAccent">@color/dark_accent</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:background">@color/dark_background</item>
+    </style>
+
+    <color name="dark_primary">#3F51B5</color>
+    <color name="dark_primary_dark">#303F9F</color>
+    <color name="dark_accent">#FF4081</color>
+    <color name="dark_background">#212121</color>
+    <color name="white">#FFFFFF</color>
+
+    <style name="GameButton" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+</resources>
